@@ -104,6 +104,12 @@ class BankAccount{
 			case 'E' :
 				System.out.println("************************");
 				break;
+			
+			default :
+				System.out.println("************************");
+				System.out.println("invalid option");
+				System.out.println("************************");
+				break;
 			}
 		}
 		while(option != 'E');
